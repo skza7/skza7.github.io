@@ -14,7 +14,11 @@ layout: default
 							<a href="mailto:scott@scottstechsupport.com"><h2>Email Now</h2></a></h2>
 							<span class="byline">24 / 7 / 365</span>
 						</header>
-
+						<form method="POST" action="http://formspree.io/scott@scottstechsupport.com">
+							<input type="email" name="email" placeholder="Your email"><br>
+							<textarea name="message" placeholder="Your message"></textarea>
+							<button type="submit">Send</button>
+						</form>
 					</section>
 				</div>
 				{% include sidebar.html %}
